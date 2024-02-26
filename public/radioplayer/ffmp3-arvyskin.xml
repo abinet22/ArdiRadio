@@ -1,0 +1,9 @@
+<ffmp3-skin folder="ffmp3-arvyskin">
+ <bg image="bg.jpg" x="0" y="0"></bg>
+ <play image="play-hover.jpg" x="12" y="7" clickimage="play-play.jpg" />
+ <stop image="pause-hover.jpg" x="30" y="7" clickimage="pause-pause.jpg" />
+ <text x="50" y="7" width="416" height="24" color="#999999" font="Arial" size="10" align="left" />
+ <songtitle x="54" y="11" width="416" height="24" color="#ffffaa" font="Arial" size="11" align="center" />
+ <volume x="502" y="12" width="44" height="6" barwidth="7" barStep="2" holderImage="volume.jpg" mode="holder" />
+ <status imagePlay="on.jpg" imageStop="off.jpg" x="552" y="13" />
+</ffmp3-skin>

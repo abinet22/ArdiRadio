@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Central - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <div class="container mx-auto px-4 py-8">
+        <header class="flex justify-between items-center mb-8">
+            <h1 class="text-4xl font-bold">Radio Central</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Stations</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Podcasts</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Schedule</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Radio Stations Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Browse Radio Stations</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Repeat this block for each category -->
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <h3 class="text-xl font-bold mb-3">Category Name</h3>
+                        <ul>
+                            <!-- Repeat this list item for each station in the category -->
+                            <li class="mb-2">
+                                <a href="#" class="hover:text-gray-300">Station Name</a>
+                            </li>
+                            <!-- ... other stations ... -->
+                        </ul>
+                    </div>
+                    <!-- ... other categories ... -->
+                </div>
+            </section>
+
+            <!-- Podcasts Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Latest Podcasts</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Repeat this block for each podcast -->
+                    <div class="bg-gray-800 p-4 rounded-lg flex items-center">
+                        <img src="https://placehold.co/60x60" alt="Placeholder image of podcast cover" class="rounded-full mr-4">
+                        <div>
+                            <h3 class="text-lg font-bold">Podcast Title</h3>
+                            <p class="text-gray-400">Host Name</p>
+                        </div>
+                    </div>
+                    <!-- ... other podcasts ... -->
+                </div>
+            </section>
+
+            <!-- Schedule Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Live Program Schedule</h2>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <ul>
+                        <!-- Repeat this list item for each program in the schedule -->
+                        <li class="mb-2">
+                            <span class="font-bold">Time Slot - </span>Program Name
+                        </li>
+                        <!-- ... other programs ... -->
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="bg-gray-800 text-gray-400 text-center p-4">
+        &copy; 2023 Radio Central. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
